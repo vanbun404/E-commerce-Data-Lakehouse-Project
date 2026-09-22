@@ -1,0 +1,56 @@
+{
+    "pipeline": "ecommerce-data-lakehouse",
+    "process": "data_ingestion",
+    "timestamp": "2026-09-22T07:47:29.810475+00:00",
+    "bucket": "ecommerce-lakehouse",
+    "records": [
+        {
+            "file": "customers.csv",
+            "object": "raw/customers.csv",
+            "status": "SUCCESS",
+            "size_bytes": 8562270,
+            "size_mb": 8.17,
+            "timestamp": "2026-09-22T07:45:36.601716+00:00"
+        },
+        {
+            "file": "products.csv",
+            "object": "raw/products.csv",
+            "status": "SUCCESS",
+            "size_bytes": 2795930,
+            "size_mb": 2.67,
+            "timestamp": "2026-09-22T07:45:36.615165+00:00"
+        },
+        {
+            "file": "orders.csv",
+            "object": "raw/orders.csv",
+            "status": "SUCCESS",
+            "size_bytes": 17406884,
+            "size_mb": 16.6,
+            "timestamp": "2026-09-22T07:45:36.667337+00:00"
+        },
+        {
+            "file": "order_items.csv",
+            "object": "raw/order_items.csv",
+            "status": "SUCCESS",
+            "size_bytes": 14911576,
+            "size_mb": 14.22,
+            "timestamp": "2026-09-22T07:45:36.706977+00:00"
+        },
+        {
+            "file": "reviews.csv",
+            "object": "raw/reviews.csv",
+            "status": "SUCCESS",
+            "size_bytes": 13955535,
+            "size_mb": 13.31,
+            "timestamp": "2026-09-22T07:45:36.743547+00:00"
+        },
+        {
+            "file": "payments.csv",
+            "object": "raw/payments.csv",
+            "status": "SUCCESS",
+            "size_bytes": 5633362,
+            "size_mb": 5.37,
+            "timestamp": "2026-09-22T07:45:36.778310+00:00"
+        }
+    ]
+}
