@@ -2,8 +2,3 @@
 __pycache__/
 .ipynb_checkpoints/
 
-.DS_Store
-
-# Raw dataset
-data/source/
-data/raw/
