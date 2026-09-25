@@ -1,0 +1,112 @@
+{
+    "pipeline": "ecommerce-data-lakehouse",
+    "process": "data_ingestion",
+    "run_id": "20260925T103751Z",
+    "timestamp": "2026-09-25T10:37:51.284409+00:00",
+    "bucket": "ecommerce-lakehouse",
+    "summary": {
+        "csv_files": 6,
+        "image_files": 5
+    },
+    "records": [
+        {
+            "data_type": "CSV",
+            "file": "customers.csv",
+            "object": "raw/customers.csv",
+            "status": "SUCCESS",
+            "size_bytes": 8562270,
+            "size_mb": 8.17,
+            "timestamp": "2026-09-25T10:37:50.832606+00:00"
+        },
+        {
+            "data_type": "CSV",
+            "file": "products.csv",
+            "object": "raw/products.csv",
+            "status": "SUCCESS",
+            "size_bytes": 2795930,
+            "size_mb": 2.67,
+            "timestamp": "2026-09-25T10:37:50.852957+00:00"
+        },
+        {
+            "data_type": "CSV",
+            "file": "orders.csv",
+            "object": "raw/orders.csv",
+            "status": "SUCCESS",
+            "size_bytes": 17406884,
+            "size_mb": 16.6,
+            "timestamp": "2026-09-25T10:37:50.910705+00:00"
+        },
+        {
+            "data_type": "CSV",
+            "file": "order_items.csv",
+            "object": "raw/order_items.csv",
+            "status": "SUCCESS",
+            "size_bytes": 14911576,
+            "size_mb": 14.22,
+            "timestamp": "2026-09-25T10:37:51.150757+00:00"
+        },
+        {
+            "data_type": "CSV",
+            "file": "reviews.csv",
+            "object": "raw/reviews.csv",
+            "status": "SUCCESS",
+            "size_bytes": 13955535,
+            "size_mb": 13.31,
+            "timestamp": "2026-09-25T10:37:51.199409+00:00"
+        },
+        {
+            "data_type": "CSV",
+            "file": "payments.csv",
+            "object": "raw/payments.csv",
+            "status": "SUCCESS",
+            "size_bytes": 5633362,
+            "size_mb": 5.37,
+            "timestamp": "2026-09-25T10:37:51.225187+00:00"
+        },
+        {
+            "data_type": "IMAGE",
+            "file": "product_005.jpg",
+            "object": "images/products/product_005.jpg",
+            "status": "SUCCESS",
+            "size_bytes": 126543,
+            "size_mb": 0.12,
+            "timestamp": "2026-09-25T10:37:51.240138+00:00"
+        },
+        {
+            "data_type": "IMAGE",
+            "file": "product_004.jpg",
+            "object": "images/products/product_004.jpg",
+            "status": "SUCCESS",
+            "size_bytes": 36381,
+            "size_mb": 0.03,
+            "timestamp": "2026-09-25T10:37:51.244749+00:00"
+        },
+        {
+            "data_type": "IMAGE",
+            "file": "product_001.jpg",
+            "object": "images/products/product_001.jpg",
+            "status": "SUCCESS",
+            "size_bytes": 181972,
+            "size_mb": 0.17,
+            "timestamp": "2026-09-25T10:37:51.250008+00:00"
+        },
+        {
+            "data_type": "IMAGE",
+            "file": "product_003.jpg",
+            "object": "images/products/product_003.jpg",
+            "status": "SUCCESS",
+            "size_bytes": 41352,
+            "size_mb": 0.04,
+            "timestamp": "2026-09-25T10:37:51.253207+00:00"
+        },
+        {
+            "data_type": "IMAGE",
+            "file": "product_002.jpg",
+            "object": "images/products/product_002.jpg",
+            "status": "SUCCESS",
+            "size_bytes": 229085,
+            "size_mb": 0.22,
+            "timestamp": "2026-09-25T10:37:51.257747+00:00"
+        }
+    ]
+}
